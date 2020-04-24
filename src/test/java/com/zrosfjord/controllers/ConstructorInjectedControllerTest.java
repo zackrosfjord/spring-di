@@ -1,4 +1,4 @@
-package com.zrosfjord.springdi.controllers;
+package com.zrosfjord.controllers;
 
 import com.zrosfjord.springdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;

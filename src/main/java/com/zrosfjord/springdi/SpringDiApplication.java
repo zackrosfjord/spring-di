@@ -1,11 +1,13 @@
 package com.zrosfjord.springdi;
 
-import com.zrosfjord.springdi.controllers.*;
+import com.zrosfjord.controllers.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.zrosfjord"})
 public class SpringDiApplication {
 
 	public static void main(String[] args) {

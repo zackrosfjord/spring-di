@@ -1,4 +1,4 @@
-package com.zrosfjord.springdi.controllers;
+package com.zrosfjord.controllers;
 
 import com.zrosfjord.springdi.services.GreetingService;
 import org.springframework.stereotype.Controller;

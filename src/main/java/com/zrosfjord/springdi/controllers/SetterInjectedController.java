@@ -1,4 +1,4 @@
-package com.zrosfjord.controllers;
+package com.zrosfjord.springdi.controllers;
 
 import com.zrosfjord.springdi.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;

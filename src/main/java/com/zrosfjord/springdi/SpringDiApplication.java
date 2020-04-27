@@ -26,6 +26,7 @@ public class SpringDiApplication {
 		System.out.println(fjb.getUsername());
 		System.out.println(fjb.getPassword());
 		System.out.println(fjb.getUrl());
+
 	}
 
 }

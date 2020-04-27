@@ -3,3 +3,10 @@ guru:
     username: JMS Username
     password: passphrase
     url: http://world.gov
+
+---
+spring:
+  profiles: de
+guru:
+  jms:
+    username: JMS DE
